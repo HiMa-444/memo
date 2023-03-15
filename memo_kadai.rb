@@ -21,5 +21,7 @@ while 1 == 1 do
     CSV.open("#{file_name}.csv",'a') do |csv|
     csv.puts ["#{memo}"]
     end
+  when 3 
+    break
   end
 end
